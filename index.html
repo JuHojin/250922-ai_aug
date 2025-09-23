@@ -1,10 +1,9 @@
-```html
 <!DOCTYPE html>
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>주호진 - 소프트웨어 엔지니어</title>
+    <title>김개발 - 소프트웨어 엔지니어</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
@@ -15,7 +14,7 @@
     <header class="header">
         <nav class="nav">
             <div class="nav-brand">
-                <h1>주호진</h1>
+                <h1>김개발</h1>
             </div>
             <ul class="nav-menu">
                 <li><a href="#home" class="nav-link">홈</a></li>
@@ -29,9 +28,9 @@
                 <span></span>
                 <span></span>
                 <span></span>
-  </div>
+            </div>
         </nav>
-</header>
+    </header>
 
     <!-- 메인 콘텐츠 -->
     <main>
@@ -40,7 +39,7 @@
             <div class="hero-content">
                 <div class="hero-text">
                     <h2 class="hero-title">안녕하세요, 저는</h2>
-                    <h1 class="hero-name">주호진</h1>
+                    <h1 class="hero-name">김개발</h1>
                     <div class="hero-subtitle">
                         <span class="typing-text" data-texts='["Full-Stack Software Engineer", "풀스택 소프트웨어 엔지니어", "Web & Mobile Developer", "웹 & 모바일 개발자", "Problem Solver", "문제 해결사"]'></span>
                         <span class="cursor">|</span>
@@ -64,22 +63,39 @@
             </div>
         </section>
 
-  <!--/ Section About Star /-->
-  <section id="about" class="about-mf sect-pt4 route">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="box-shadow-full">
-            <div class="row">
-              <div class="col-md-6">
-                <div class="row">
-                  <div class="col-sm-6 col-md-5">
-                    <div class="about-img">
-                      <img src="img/testimonial-2.jpg" class="img-fluid rounded b-shadow-a" alt="">
+        <!-- 소개 섹션 -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>
+                            5년간의 풀스택 개발 경험을 바탕으로, 웹 애플리케이션부터 
+                            모바일 앱까지 다양한 프로젝트를 성공적으로 완료했습니다.
+                        </p>
+                        <p>
+                            최신 기술 트렌드를 빠르게 학습하고 적용하며, 
+                            팀워크를 중시하는 개발자입니다. 코드 품질과 
+                            사용자 경험을 동시에 고려한 개발을 추구합니다.
+                        </p>
+                        <div class="about-stats">
+                            <div class="stat">
+                                <h3>5+</h3>
+                                <p>년 경력</p>
+                            </div>
+                            <div class="stat">
+                                <h3>50+</h3>
+                                <p>완료 프로젝트</p>
+                            </div>
+                            <div class="stat">
+                                <h3>100%</h3>
+                                <p>고객 만족도</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-</section>
+        </section>
 
         <!-- 기술 섹션 -->
         <section id="skills" class="skills">
@@ -191,8 +207,8 @@
                         </div>
                     </div>
                 </div>
-  </div>
-</section>
+            </div>
+        </section>
 
         <!-- 경력 섹션 -->
         <section id="experience" class="experience">
@@ -246,66 +262,87 @@
                                 <li>HTML, CSS, JavaScript를 활용한 반응형 웹사이트 개발</li>
                                 <li>React Native를 활용한 크로스 플랫폼 모바일 앱 개발</li>
                                 <li>Git을 활용한 버전 관리 및 협업</li>
-  </ul>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
-</section>
+        </section>
 
-  <!--/ Section Contact-footer Star /-->
-  <section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(img/overlay-bg.jpg)">
-    <div class="overlay-mf"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="contact-mf">
-            <div id="contact" class="box-shadow-full">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="title-box-2">
-                    <h5 class="title-left">
-                      Send Message Us
-                    </h5>
-                  </div>
-                  <div>
-                      <form action="" method="post" role="form" class="contactForm">
-                      <div id="sendmessage">Your message has been sent. Thank you!</div>
-                      <div id="errormessage"></div>
-                      <div class="row">
-                        <div class="col-md-12 mb-3">
-                          <div class="form-group">
-                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                            <div class="validation"></div>
-                          </div>
+        <!-- 프로젝트 섹션 -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="section-title">Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="image-placeholder">🛒</div>
                         </div>
-                        <div class="col-md-12 mb-3">
-                          <div class="form-group">
-                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                            <div class="validation"></div>
-                          </div>
-                        </div>
-                        <div class="col-md-12 mb-3">
-                            <div class="form-group">
-                              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                              <div class="validation"></div>
+                        <div class="project-content">
+                            <h3>E-Commerce Platform</h3>
+                            <p>
+                                React, Node.js, PostgreSQL을 활용한 풀스택 전자상거래 플랫폼입니다. 
+                                결제 시스템, 재고 관리, 주문 추적 기능을 포함합니다.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">PostgreSQL</span>
+                                <span class="tech-tag">Stripe</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-outline">Live Demo</a>
+                                <a href="#" class="btn btn-outline">GitHub</a>
                             </div>
                         </div>
-                        <div class="col-md-12 mb-3">
-                          <div class="form-group">
-                            <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                            <div class="validation"></div>
-                          </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="image-placeholder">📱</div>
                         </div>
-                        <div class="col-md-12">
-                          <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
+                        <div class="project-content">
+                            <h3>Task Management App</h3>
+                            <p>
+                                Vue.js와 Express.js를 활용한 협업 도구입니다. 
+                                실시간 업데이트, 파일 공유, 팀 채팅 기능을 제공합니다.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Vue.js</span>
+                                <span class="tech-tag">Express.js</span>
+                                <span class="tech-tag">Socket.io</span>
+                                <span class="tech-tag">MongoDB</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-outline">Live Demo</a>
+                                <a href="#" class="btn btn-outline">GitHub</a>
+                            </div>
                         </div>
-                      </div>
-                    </form>
-                  </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="image-placeholder">📊</div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Data Analytics Dashboard</h3>
+                            <p>
+                                Python과 D3.js를 활용한 데이터 시각화 대시보드입니다. 
+                                실시간 데이터 처리 및 인터랙티브 차트를 제공합니다.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">D3.js</span>
+                                <span class="tech-tag">Flask</span>
+                                <span class="tech-tag">Redis</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-outline">Live Demo</a>
+                                <a href="#" class="btn btn-outline">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-</section>
+        </section>
 
         <!-- 연락처 섹션 -->
         <section id="contact" class="contact">
@@ -323,14 +360,14 @@
                                 <span class="contact-icon">📧</span>
                                 <div>
                                     <h4>Email</h4>
-                                    <p>contact@example.com</p>
+                                    <p>kim.developer@email.com</p>
                                 </div>
                             </div>
                             <div class="contact-item">
                                 <span class="contact-icon">📱</span>
                                 <div>
                                     <h4>Phone</h4>
-                                    <p>+82 10-0000-0000</p>
+                                    <p>+82 10-1234-5678</p>
                                 </div>
                             </div>
                             <div class="contact-item">
@@ -372,32 +409,11 @@
     <!-- 푸터 -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2024 주호진. All rights reserved.</p>
-</div>
+            <p>&copy; 2024 김개발. All rights reserved.</p>
+        </div>
     </footer>
-  </section>
-  <!--/ Section Contact-footer End /-->
 
-  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-  <div id="preloader"></div>
-
-  <!-- JavaScript Libraries -->
-  <script src="lib/jquery/jquery.min.js"></script>
-  <script src="lib/jquery/jquery-migrate.min.js"></script>
-  <script src="lib/popper/popper.min.js"></script>
-  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
-  <script src="lib/easing/easing.min.js"></script>
-  <script src="lib/counterup/jquery.waypoints.min.js"></script>
-  <script src="lib/counterup/jquery.counterup.js"></script>
-  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-  <script src="lib/lightbox/js/lightbox.min.js"></script>
-  <script src="lib/typed/typed.min.js"></script>
-  <!-- Contact Form JavaScript File -->
-  <script src="contactform/contactform.js"></script>
-
-  <!-- Template Main Javascript File -->
-  <script src="js/main.js"></script>
-
+    <script src="script.js"></script>
 </body>
 </html>
-```
+
